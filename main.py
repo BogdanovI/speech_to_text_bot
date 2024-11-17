@@ -19,7 +19,7 @@ bot = telebot.TeleBot(
 def send_welcome(message):
     """Standart command handler. Reaction on start command."""
     chat_id = message.chat.id
-    bot.send_message(chat_id, "Hello, 1I can translate speech to text. For details, enter /info or select the appropriate item from the menu.")
+    bot.send_message(chat_id, "Hello, I can translate speech to text. For details, enter /info or select the appropriate item from the menu.")
 
 #info
 @bot.message_handler(commands=['info'])
@@ -27,7 +27,7 @@ def send_info(message):
     """Standart command handler. Reaction on info command."""
     chat_id = message.chat.id
     bot.send_message(chat_id, "Send or forward me a voice message and in response I will send you text message.\nI only accept voice messages.")
-    bot.send_message(chat_id, "If you find an error or your speech is not translated into text, please send me(@BogdanovI) a message, thanks.")
+    bot.send_message(chat_id, "If you find an error or your speech is not translated into text, please send me(@YOUR_ACCOUNT) a message, thanks.")
 
 @bot.message_handler(content_types=['text'])
 def send_warning_message(message):
