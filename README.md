@@ -40,7 +40,7 @@ python3 main.py
 ```
 
 ## Docker
-In the repository provide Docker file with all dependencies
+In the repository provide Docker file with all dependencies.
 
 ## Contributing
 
@@ -52,3 +52,8 @@ Please make sure to update tests as appropriate.
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## Links
+[pyTelegramBotAPI](https://pypi.org/project/pyTelegramBotAPI/)
+[pydub](https://pypi.org/project/pydub/)
+[whisper](https://huggingface.co/openai/whisper-large-v3)
