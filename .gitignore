@@ -1,0 +1,7 @@
+.vscode
+__pycache__/
+model/
+audio_examples/
+save_voice_message/
+tests
+log.txt
